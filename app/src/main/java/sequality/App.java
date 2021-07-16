@@ -15,11 +15,8 @@ public class App {
     int j = 10;
     System.out.println(new App().getGreeting());
     Calculate calc = new Calculate();
-    System.out
-        .println("Sum of " + x + " and " + y + " is " + calc.sum(x, y) + "." + "Average is " + calc.ave(x, y) + ".");
-    System.out.println(
-        "Sum of " + i + " to " + j + " is " + calc.allsum(i, j) + "." + "Average is " + calc.sumave(i, j) + ".");
-    System.out.println("Sum of odd of " + i + " to " + j + " is " + calc.sumodd(i, j) + "." + "Sum of even is "
-        + calc.sumeven(i, j) + ".");
+    System.out.println("Sum of " + x + " and " + y + " is " + calc.sum(x, y) + "." + "Average is " + calc.ave(x, y) + ".");
+    System.out.println("Sum of " + i + " to " + j + " is " + calc.allsum(i, j) + "." + "Average is " + calc.sumave(i, j) + ".");
+    System.out.println("Sum of odd of " + i + " to " + j + " is " + calc.sumodd(i, j) + "." + "Sum of even is "+ calc.sumeven(i, j) + ".");
   }
 }
